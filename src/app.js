@@ -11,7 +11,7 @@ const router = express.Router();
 mongoose.connect('mongodb+srv://root2:root@cluster0.odfrpvf.mongodb.net/?retryWrites=true&w=majority');
 
 // Carrega os Models
-const Product = require('./models/Product');
+const Product = require('./models/product');
 
 // Carrega as Rotas
 const indexRoutes = require('./routes/index');
