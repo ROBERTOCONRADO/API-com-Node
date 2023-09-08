@@ -12,6 +12,7 @@ mongoose.connect('mongodb+srv://root2:root@cluster0.odfrpvf.mongodb.net/?retryWr
 
 // Carrega os Models
 const Product = require('./models/product');
+const Customer = require('./models/customer');
 
 // Carrega as Rotas
 const indexRoutes = require('./routes/index');
